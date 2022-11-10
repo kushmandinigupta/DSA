@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int n;
+    cin>>n;
+    
+    do
+    {
+        cout<<"enter the value of n\n";
+        cin>>n;
+    } while (n>=0);
+    
+    return 0;
+}
